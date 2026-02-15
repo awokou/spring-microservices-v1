@@ -21,6 +21,8 @@ jobs:
         cache: maven
     - name: Build api gateway
       run: mvn -B package --file api-gateway/pom.xml
+    - name: Build common
+      run: mvn -B package --file common-lib/pom.xml
     - name: Build discovery service
       run: mvn -B package --file discovery-service/pom.xml
     - name: Build school service
