@@ -1,7 +1,7 @@
 package com.service.student.service.controller;
 
-import com.service.student.service.dto.StudentDto;
-import com.service.student.service.entity.Student;
+import com.service.student.service.domain.dto.StudentDto;
+import com.service.student.service.domain.entity.Student;
 import com.service.student.service.service.StudentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

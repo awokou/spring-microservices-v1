@@ -1,4 +1,4 @@
-package com.service.student.service.dto;
+package com.service.student.service.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

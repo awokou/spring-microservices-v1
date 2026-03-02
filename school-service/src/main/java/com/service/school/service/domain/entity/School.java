@@ -1,4 +1,4 @@
-package com.service.school.service.entity;
+package com.service.school.service.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -7,8 +7,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
-@Builder
+
 @Data
+@Builder
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor

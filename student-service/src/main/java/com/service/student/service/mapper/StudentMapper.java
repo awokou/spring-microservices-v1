@@ -1,14 +1,15 @@
 package com.service.student.service.mapper;
 
-import com.service.student.service.dto.StudentDto;
-import com.service.student.service.entity.Student;
+import com.service.student.service.domain.dto.StudentDto;
+import com.service.student.service.domain.entity.Student;
 import org.springframework.stereotype.Component;
 
 @Component
 public class StudentMapper {
 
     public Student toEntity(StudentDto dto) {
-        if (dto == null) return null;
+        if (dto == null)
+            return null;
 
         Student student = new Student();
         student.setId(dto.getId());
@@ -21,7 +22,8 @@ public class StudentMapper {
     }
 
     public StudentDto toDto(Student entity) {
-        if (entity == null) return null;
+        if (entity == null)
+            return null;
 
         StudentDto dto = new StudentDto();
         dto.setId(entity.getId());

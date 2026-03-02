@@ -1,4 +1,4 @@
-package com.service.student.service.entity;
+package com.service.student.service.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

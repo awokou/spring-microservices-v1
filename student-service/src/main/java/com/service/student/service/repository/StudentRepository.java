@@ -1,6 +1,6 @@
 package com.service.student.service.repository;
 
-import com.service.student.service.entity.Student;
+import com.service.student.service.domain.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
