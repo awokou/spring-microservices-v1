@@ -1,4 +1,4 @@
-# Spring Microservices V1
+# Spring Microservices architecture
 
 This repository contains a demo project showcasing a microservices-based application, designed to provide a hands-on understanding of microservices architecture and implementation. The project consists of an API Gateway, Discovery Server, and two microservices: Student and School.
 
